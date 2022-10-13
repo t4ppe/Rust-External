@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="kinface">
+      <UniqueIdentifier>{14092130-259b-43ac-bfb5-deaaed3e954c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vectors">
+      <UniqueIdentifier>{fae97263-1466-4e00-8109-6d3ef390112d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entities">
+      <UniqueIdentifier>{c424e8af-ed86-4070-a2e9-b52b006d76b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Iterations">
+      <UniqueIdentifier>{ea3c5c7a-f7b4-4c63-a44e-1db4d341def9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="rust">
+      <UniqueIdentifier>{2ff268c5-33ac-44d8-8985-91474bb903bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{19bbb767-8283-49f9-a1c1-ff07da471826}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer\ImGui">
+      <UniqueIdentifier>{ac270b01-45bd-4386-8b71-4e3035c17975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{71047721-58fe-415f-bb89-fa6352d0c366}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="memory">
+      <UniqueIdentifier>{d084ee2c-2faf-4717-90f0-4f4f59771f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{e783cf9e-6208-4b47-8af9-2605efdc41e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vectors\Vector.cpp">
+      <Filter>Vectors</Filter>
+    </ClCompile>
+    <ClCompile Include="Iterations\BaseNetworkable.cpp">
+      <Filter>Iterations</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rust\rust.cpp">
+      <Filter>rust</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGui\imgui.cpp">
+      <Filter>Renderer\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGui\imgui_demo.cpp">
+      <Filter>Renderer\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGui\imgui_draw.cpp">
+      <Filter>Renderer\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer\ImGui\imgui_impl_dx11.cpp">
+      <Filter>Renderer\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vectors\Vector.hpp">
+      <Filter>Vectors</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterations\BaseNetworkable.hpp">
+      <Filter>Iterations</Filter>
+    </ClInclude>
+    <ClInclude Include="Iterations\utils.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\rust.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="kinface\kiface.h">
+      <Filter>kinface</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Baseplayer.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\Entities.hpp">
+      <Filter>Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\esp.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities\config.hpp">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\Camera.hpp">
+      <Filter>rust</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\Drawer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\imconfig.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\imgui.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\imgui_impl_dx11.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\imgui_internal.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\imgui_tabs.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\stb_rect_pack.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\stb_textedit.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer\ImGui\stb_truetype.h">
+      <Filter>Renderer\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="rust\Menu.hpp">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_sprintf.hpp">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_structs.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="mem_class.hpp">
+      <Filter>memory</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneUtil.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
